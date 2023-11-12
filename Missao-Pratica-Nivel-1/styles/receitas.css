@@ -1,0 +1,69 @@
+.receitas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8efeda8;
+    margin: 20px;
+    padding: 15px 7px;
+    list-style-position:inside;
+    height: 395px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.card__titulo {
+    font-size: 25px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: var(--azul-claro);
+}
+
+.card__img {
+    width: 300px;
+    height: 160px;
+}
+
+.card_ingredientes {
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: var(--azul-claro);
+
+}
+
+hr {
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid var(--verde-agua-escuro);
+    width: 250px;
+}
+
+.card-items {
+    padding: 3px ;
+    width: 155px;
+    
+}
+
+.card-items::marker {
+    margin-left: 5px;
+    justify-content: left;
+}
+
+.card__instrucoes {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    width: 270px;
+    font-size: 17px;
+    padding-top: 7px;
+    color: var(--azul-claro);
+
+}

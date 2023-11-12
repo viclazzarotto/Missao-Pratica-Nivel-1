@@ -1,0 +1,57 @@
+@import url('home.css');
+@import url('receitas.css');
+@import url('cadastro.css');
+
+:root {
+    --azul-escuro: #206fd9;
+    --azul-claro: #209bd8;
+    --verde-agua-escuro: #4cd2dc;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: var(--azul-claro);
+    padding: 15px 10px;
+}
+
+.menu__item {
+    text-decoration: none;
+    color: #f8efed;
+    padding-right: 7px;
+}
+
+.menu__item:hover {
+    color: var(--azul-escuro);
+    font-weight: bold;
+}
+
+.conteudo {
+    align-items: center;
+    text-align: center;
+    background-color: #bcefed;
+    height: 85vh;
+}
+
+.conteudo__titulo-cadastro {
+    color: var(--azul-claro);
+    font-size: 38px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+    background-color: var(--azul-claro);
+    color: #f8efed;
+    padding: 10px 0;
+}
+
+
+
+
+
+

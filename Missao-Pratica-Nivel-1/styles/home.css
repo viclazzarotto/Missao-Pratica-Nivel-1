@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 65px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conteudo__logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+.conteudo__titulo {
+    color: var(--azul-claro);
+    font-size: 38px;
+}
+
+
+
+.conteudo__paragrafo {
+    font-size: 25px;
+    line-height: 40px;
+}
+
